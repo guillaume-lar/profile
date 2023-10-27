@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+    font-family: Optima, sans-serif;
+    color:azure;
+    font-size: 10px;
+    line-height: 30px;
+}
+/* Styles pour les écrans de taille moyenne (tablettes) */
+
+
+header{
+    color: black;
+    font-family: white;
+    font-size: 10px;
+}
+
+
+
+.card {
+    background: #34495e;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 6px solid #2c3e50;
+    border-right: 6px solid #2c3e50;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+
+    height: 90px;
+    border-radius: 50%;
+}
+
+.button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #27ae60;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+        width: 300px;
+    }
+}
